@@ -4,10 +4,10 @@
 html {
 	background-color: white;
 	height: 100%;
-	width: 1000px;
+	width: 100%
 	}
 
-	body {	
+body {	
 	border-color: #dddddd;
 	border-style: hidden;
 	border-width: 5px;
@@ -28,6 +28,7 @@ h2 {
 	font-family: 'Georgia', 'Times', 'Times New Roman', serif;
 	font-size: 1.5em;
 	font-weight: bold;
+	text-indent: 20px;
 }
 
 p {
@@ -85,21 +86,36 @@ header {
 /*Main Content*/
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 .main {
-	background-image: url('https://c1.staticflickr.com/3/2912/32591985983_a04803fa85_h.jpg');
+	background-image: url("../images/background1.jpg");
 	background-size: contain;
 	margin-top: -8px;
 	padding-top: 3%;
 }
 
+.content {
+	background: rgb(255, 0, 102);
+	background: rgba(255, 0, 102, .1);
+	border-color: black;
+	border-radius: 8%;
+	border-style: solid;
+	border-width: 1px;
+	color: black;
+	float: left;
+	margin-left: 15px;
+	padding: 10px;
+  width: 650px;
+}
 
 
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 /*Contact*/
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 .connect {
-	background-color: rgba(135, 206, 250);
-	background-color: rgba(135,206,250,.3);
+	background: rgb(135, 206, 250);
+	background: rgba(135,206,250,.3);
 	border-radius: 8%;
+	border-style: solid;
+	border-width: 1px;
 	float: right;
 	text-align: center;
 	width: 270px;
@@ -152,17 +168,6 @@ footer {
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 /*About*/
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
-.about-me {
-	background-color: rgb(255, 0, 102);
-	background-color: rgba(255, 0, 102, .1);
-	border-color: green;
-	border-style: solid;
-	border-radius: 8%;
-	float: left;
-	margin-left: 15px;
-	padding: 10px;
-  width: 650px;
-}
 
 .profile-picture {
 	border-radius: 29%;
@@ -182,14 +187,18 @@ footer {
 /*Gallery*/
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 gallery-left {
+	border-radius: 5%;
 	float: left;
 	height: 200px;
+	margin-left: 10px;
 	width: 200px;
 }
 
 gallery-right {
+	border-radius: 50%;
 	float: right;
-	height: 200px
+	height: 200px;
+	margin-left: 10px;
 	width: 200px;
 }
 
