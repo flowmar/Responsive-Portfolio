@@ -243,8 +243,8 @@ gallery-right {
 		width: 640px;
 	}
 	.main {
-		text-align: center;
 		margin: 0, 0, 1%, 2%;
+		text-align: center;
 		width: 640px;
 	}
 	h2 {
@@ -283,9 +283,9 @@ gallery-right {
 		width: 630px;
 	}
 	.message {
-		width: 90%;
-		padding: 25px 10px;
 		margin: 5px 0;
+		padding: 25px 10px;
+		width: 90%;
 	}
 .gallery-left {
 	border-radius: 50%;
@@ -310,3 +310,105 @@ border-radius: 50%;
 	width: 100%;
 }
 
+@media (min-width: 641px) and (max-width: 768px) {
+	.wrapper {
+		width: 768px;
+		}
+
+	.html {
+		font-size: 12px;
+		width: 768px;
+		}
+
+	.header {
+		position: static;
+		width: 768px;
+	}
+
+	.body {
+		width: 768px;
+	}
+
+	footer {
+		width: 768px;
+	}
+
+	.navbar {
+		width: 768px;
+	}
+
+	.main {
+		text-align: center;
+		margin: 0, 0, 1%, 2%;
+		width: 768px;
+	}
+
+	h2 {
+		text-align: left;
+	}
+
+	.content {
+		height: 100%;
+		padding: 8%;
+		width: 95%;
+			}
+
+	.connect {
+		clear: both;
+		margin-top: 15px;
+		position: relative;
+		text-align: left;
+		width: 96%;
+	}
+	
+	.name {
+		margin: 0;
+		width: 768px;
+	}
+  
+  .navbar {
+  	text-align: center;
+  	width: 768px;
+  }
+  
+  a {
+  	color: black;
+  }
+	
+	.name-email {
+		padding: 10px;
+		width: 90%;
+	}
+	
+	.top {
+		width: 760px;
+	}
+	
+	.message {
+		width: 90%;
+		padding: 25px 10px;
+		margin: 5px 0;
+	}
+
+	.gallery-left {
+		border-radius: 50%;
+		clear: both;
+		height: 80%;
+		margin-left: 10px;
+		width: 80%;
+}
+
+	.gallery-right {
+		border-radius: 50%;
+		clear: both;
+		height: 80%;
+		margin-left: 10px;
+		width: 80px;
+}
+
+	.gallery-all {
+		clear: both; 
+		display: block;
+		height: 100%;
+		width: 100%
+	k
