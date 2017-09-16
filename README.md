@@ -20,9 +20,20 @@ In this assignment, we were tasked to take our basic portfolios and make them mo
     * `768px` is about the width of a tablet and `640px` is about the width of a phone in landscape.
 
     3. Make the layout match the following screenshots:
-    4. `index.html`: [980px](Images/980-index.jpg), [768px](Images/768-index.jpg), [640px](Images/640-index.jpg)
-    5. `portfolio.html`: [980px](Images/980-portfolio.jpg), [768px](Images/768-portfolio.jpg), [640px](Images/640-portfolio.jpg)
-    6. `contact.html`: [980px](Images/980-contact.jpg), [768px](Images/768-contact.jpg), [640px](Images/640-contact.jpg)
+    4. `index.html`: 
+   ![980px](Images/980-index.jpg) 
+   ![768px](Images/768-index.jpg) 
+   ![640px](Images/640-index.jpg)
+   
+    5. `portfolio.html`: 
+   ![980px](Images/980-portfolio.jpg)
+   ![768px](Images/768-portfolio.jpg)
+   ![640px](Images/640-portfolio.jpg)
+    
+    6. `contact.html`: 
+   ![980px](Images/980-contact.jpg)
+   ![768px](Images/768-contact.jpg)
+   ![640px](Images/640-contact.jpg)
 
     7. Make the position of the header `static` (the default positioning) when the screen is `640px` wide. The header design takes up a lot of room; you don't want it to stick to the top of a small screen and leave no room for the rest of your site.
 
